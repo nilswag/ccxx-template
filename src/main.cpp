@@ -2,6 +2,6 @@
 
 int main(void)
 {
-    std::cout << "Hello World!";
+    std::cout << RES_PATH;
     return 0;
 }
