@@ -1,0 +1,28 @@
+{
+    "version": 10,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 10
+    },
+
+    "configurePresets": [
+        {
+            "name": "debug",
+            "displayName": "Debug Configure",
+            "description": "Configure project in debug mode",
+            "binaryDir": "build/debug",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        }
+    ],
+
+    "buildPresets": [
+        {
+            "name": "debug",
+            "displayName": "Debug Build",
+            "description": "Build using debug configuration",
+            "configurePreset": "debug"
+        }
+    ]
+}
